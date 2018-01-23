@@ -1,0 +1,70 @@
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\Jaditronics.Android.csprojResolveAssemblyReference.cache
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\Jaditronics.Android.csproj.CoreCompileInputs.cache
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\Jaditronics.Droid.App.xaml.g.cs
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\Jaditronics.Droid.MainPage.xaml.g.cs
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\Jaditronics.Droid.Control.xaml.g.cs
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\Jaditronics.Droid.Bluetooth.xaml.g.cs
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\bin\Debug\Jaditronics.Android.dll
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\bin\Debug\Jaditronics.Android.pdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\bin\Debug\com.companyname.Jaditronics.apk
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\bin\Debug\com.companyname.Jaditronics-Signed.apk
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\Jaditronics.Android.dll
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\Jaditronics.Android.pdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\android\bin\com.companyname.Jaditronics.apk
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\drawable\icon.png
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\layout\tabbar.xml
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\layout\toolbar.xml
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\values\styles.xml
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\R.cs.flag
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\uploadflags.txt
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\bin\Debug\Jaditronics.Android.dll.mdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\android\assets\Jaditronics.Android.dll.mdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\drawable\ic_android.png
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\drawable\ic_android_2x.png
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\drawable\ic_android_3x.png
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\drawable\ic_bluetooth.png
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\drawable\ic_bluetooth_2x.png
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\obj\Debug\res\drawable\ic_bluetooth_3x.png
+C:\Users\remi gentier\Documents\Visual Studio 2017\Projects\Jaditronics\Jaditronics\Jaditronics.Android\bin\Debug\Jaditronics.Android.dll
+bin\Debug\FormsViewGroup.dll.mdb
+bin\Debug\Xamarin.Forms.Core.dll.mdb
+bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+bin\Debug\Mono.Android.pdb
+bin\Debug\mscorlib.pdb
+bin\Debug\System.Core.pdb
+bin\Debug\System.pdb
+bin\Debug\System.Xml.pdb
+bin\Debug\System.Xml.Linq.pdb
+bin\Debug\System.Net.Http.pdb
+bin\Debug\System.Runtime.Serialization.pdb
+bin\Debug\System.ServiceModel.Internals.pdb
+bin\Debug\Mono.Security.pdb
+bin\Debug\System.ComponentModel.Composition.pdb
+obj\Debug\linksrc\Jaditronics.Android.dll.mdb
+obj\Debug\linksrc\FormsViewGroup.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
+obj\Debug\linksrc\Mono.Android.pdb
+obj\Debug\linksrc\mscorlib.pdb
+obj\Debug\linksrc\System.Core.pdb
+obj\Debug\linksrc\System.pdb
+obj\Debug\linksrc\System.Xml.pdb
+obj\Debug\linksrc\System.Xml.Linq.pdb
+obj\Debug\linksrc\System.Net.Http.pdb
+obj\Debug\linksrc\System.Runtime.Serialization.pdb
+obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+obj\Debug\linksrc\Mono.Security.pdb
+obj\Debug\linksrc\System.ComponentModel.Composition.pdb
