@@ -16,5 +16,9 @@ namespace Jaditronics
 		{
 			InitializeComponent ();
 		}
+
+        void OnScanBluetooth(object sender, EventArgs e) {
+            
+        }
 	}
 }
