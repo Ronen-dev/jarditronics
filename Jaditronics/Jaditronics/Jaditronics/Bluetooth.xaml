@@ -6,8 +6,15 @@
              Icon="ic_bluetooth.png">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Connexion avec le robot" />
-            <Button x:Name="translateButon" Text="Scan bluetooth" Clicked="OnScanBluetooth" />
+            <Label Text="Connexion avec le robot" 
+               Font="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+            <Button x:Name="translateButon" 
+                    Text="Scan bluetooth"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="OnScanBluetooth" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

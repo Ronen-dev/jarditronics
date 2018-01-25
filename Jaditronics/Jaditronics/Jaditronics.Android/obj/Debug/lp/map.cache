@@ -22,3 +22,6 @@ Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 System.ComponentModel
 System.Reflection.Extensions
+Xamarin.Android.Arch.Core.Common
+Xamarin.Android.Arch.Lifecycle.Common
+Xamarin.Android.Arch.Lifecycle.Runtime
