@@ -9,11 +9,31 @@
                Font="Large"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
-            <Button x:Name="translateButon" 
+            <Button x:Name="translateButon"
                     Text="Scan bluetooth"
                     HorizontalOptions="Center"
                     VerticalOptions="CenterAndExpand"
                     Clicked="OnScanBluetooth" />
+
+            <Label Text="Veuillez activer votre Bluetooth" 
+               Font="Large"
+               IsVisible="{Binding isBleDisabled}"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+            
+            <ListView x:Name="lv" IsVisible="{Binding isBleEnabled}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="{Binding NativeDevice.Id}"></Label>
+                                <Label Text="{Binding NativeDevice.Name}"></Label>
+                                <Label Text="{Binding NativeDevice.NativeDevice}"></Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
