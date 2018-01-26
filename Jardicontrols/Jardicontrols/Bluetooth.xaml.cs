@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Plugin.BLE;
 using Plugin.BLE.Abstractions.Contracts;
+using Plugin.BLE.Abstractions.Exceptions;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,17 +18,14 @@ namespace Jardicontrols
         IBluetoothLE ble;
         IAdapter adapter;
         ObservableCollection<IDevice> deviceList;
-        Boolean isBleEnabled;
-        Boolean isBleDisabled;
 
         public Bluetooth()
         {
+            
             InitializeComponent();
 
             this.ble = CrossBluetoothLE.Current;
             this.adapter = CrossBluetoothLE.Current.Adapter;
-            this.isBleEnabled = (ble.State == BluetoothState.On);
-            this.isBleDisabled = !this.isBleEnabled;
 
             this.deviceList = new ObservableCollection<IDevice>();
             lv.ItemsSource = this.deviceList;
@@ -36,20 +34,51 @@ namespace Jardicontrols
         private async void OnScanBluetooth(object sender, EventArgs e)
         {
             if (ble.State == BluetoothState.On) {
-                this.isBleEnabled = true;
-                this.isBleDisabled = !this.isBleEnabled;
+                Msg.Text = "Scan in progress ...";
+                loader.IsRunning = true;
+                if (this.adapter.IsScanning == false) {
+                    this.deviceList.Clear();
 
-                this.deviceList.Clear();
-
-                this.adapter.DeviceDiscovered += (s, a) =>
-                {
-                    this.deviceList.Add(a.Device);
-                };
-
-                await this.adapter.StartScanningForDevicesAsync();
+                    this.adapter.DeviceDiscovered += (s, a) =>
+                    {
+                        if (a.Device.Name != null)
+                            this.deviceList.Add(a.Device);
+                    };
+                    await this.adapter.StartScanningForDevicesAsync();
+                    // await this.adapter.StopScanningForDevicesAsync();    
+                    Msg.Text = "";
+                    loader.IsRunning = false;
+                }
             } else {
-                this.isBleDisabled = true;
-                this.isBleEnabled = !this.isBleDisabled;
+                Msg.Text = "Please enable Bluetooth.";
+            }
+        }
+        private async void lv_ItemSelected(object sender, SelectedItemChangedEventArgs e){
+            if (lv.SelectedItem == null)
+                return;
+            App.device = lv.SelectedItem as IDevice;
+            try
+            {
+                loader.IsRunning = true;
+                await adapter.ConnectToDeviceAsync(App.device);
+                Msg.Text = "You are connected to " + App.device.Name;
+                ScanBle.IsVisible = false;
+                DcDevice.IsVisible = true;
+            }catch(DeviceConnectionException ex){
+                App.device = null;
+                Msg.Text = "Fail to connect";
+            }finally{
+                loader.IsRunning = false;
+            }
+        }
+        private async void disconnected(object sender, EventArgs e){
+            try{
+                await this.adapter.DisconnectDeviceAsync(App.device);
+                ScanBle.IsVisible = true;
+                DcDevice.IsVisible = false;
+           
+            }catch(DeviceDiscoverException ex){
+                
             }
         }
     }

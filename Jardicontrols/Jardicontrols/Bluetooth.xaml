@@ -5,30 +5,36 @@
              Title="Bluetooth">
     <ContentPage.Content>
         <StackLayout>
+            <ActivityIndicator x:Name="loader" Color="Red" IsRunning="false" />
             <Label Text="Connexion avec le robot" 
                Font="Large"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
-            <Button x:Name="translateButon"
+            <Button x:Name="ScanBle"
                     Text="Scan bluetooth"
                     HorizontalOptions="Center"
                     VerticalOptions="CenterAndExpand"
-                    Clicked="OnScanBluetooth" />
-
-            <Label Text="Veuillez activer votre Bluetooth" 
+                    Clicked="OnScanBluetooth" 
+                    IsVisible="true"/>
+            <Button x:Name="DcDevice"
+                    Text="Disconnect"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="disconnected"
+                    IsVisible="false"/>
+            
+            <Label x:Name="Msg" Text="" 
                Font="Large"
-               IsVisible="{Binding isBleDisabled}"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
             
-            <ListView x:Name="lv" IsVisible="{Binding isBleEnabled}">
+            <ListView x:Name="lv" ItemSelected="lv_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout>
-                                <Label Text="{Binding NativeDevice.Id}"></Label>
-                                <Label Text="{Binding NativeDevice.Name}"></Label>
-                                <Label Text="{Binding NativeDevice.NativeDevice}"></Label>
+                                <Label XAlign="Center" Text="{Binding NativeDevice.Name}"></Label>
+                                <Label XAlign="Center" Text="{Binding NativeDevice.Address}"></Label>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

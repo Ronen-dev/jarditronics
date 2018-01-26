@@ -11,10 +11,14 @@ namespace Jardicontrols
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Controls : ContentPage
-    {
+    {   
         public Controls()
         {
             InitializeComponent();
+            if (App.device == null)
+                Msg.Text = "Please connect to a device from the tab bluetooth";
+            else
+                Msg.Text = "You are connected to " + App.device.Name;
         }
 
         public void RotationBaseRight(object sender, EventArgs e)
